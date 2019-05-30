@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="splashbg">#E7E7E7</color>
+    <color name="submit">#fff</color>
+    <color name="but_submit">#0bab4b</color>
+    <color name="details">#673AB7</color>
+    <color name="line">#525050</color>
+    <color name="transparent">#DDA3A3</color>
+    <color name="card">#000</color>
+</resources>

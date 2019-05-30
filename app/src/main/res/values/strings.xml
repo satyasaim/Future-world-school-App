@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Future World School</string>
+    <string name="details">DETAILS</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="FeeStructure">Fee Structure</string>
+    <string name="monthly">MONTHLY</string>
+    <string name="fee_particulars">Fee Particulars</string>
+    <string name="amount">Amount</string>
+    <string name="proceed">Proceed</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="january">January</string>
+    <string name="january">January</string>
+    <array name="fee">
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>Monthly</item>
+    </array>
+
+    <!--<string-array name="fee1">-->
+        <!--<item>Yearly</item>-->
+        <!--<item>Half Yearly</item>-->
+        <!--<item>Quarterly</item>-->
+        <!--<item>Monthly</item>-->
+
+    <!--</string-array>-->
+</resources>

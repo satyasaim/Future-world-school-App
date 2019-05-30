@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".Login_page">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/et_mobilenum"
+            android:hint="Entre Your Mobile No"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+           android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+        
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/but_submit"
+            android:text="Submit"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/submit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+            android:background="@color/but_submit"
+            android:layout_width="300dp"
+            android:layout_height="45dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

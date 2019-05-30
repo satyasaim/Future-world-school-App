@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashbg"
+    tools:context=".Details_page">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logonew" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:text="DETAILS"
+                android:textSize="20dp"
+                android:textColor="@color/details"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/favicon"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:text="Parents name:"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+           <TableLayout
+               android:background="@color/line"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="350dp"
+               android:layout_height="0.8dp">
+
+           </TableLayout>
+
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:text="Mobile Number:"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TableLayout
+                android:background="@color/line"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="350dp"
+                android:layout_height="0.8dp">
+
+            </TableLayout>
+            <android.support.v7.widget.AppCompatTextView
+                android:text="Student Name:"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TableLayout
+                android:background="@color/line"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="350dp"
+                android:layout_height="0.8dp">
+
+            </TableLayout>
+            <android.support.v7.widget.AppCompatTextView
+                android:text="Student Id:"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TableLayout
+                android:background="@color/line"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="350dp"
+                android:layout_height="0.8dp">
+
+            </TableLayout>
+            <android.support.v7.widget.AppCompatTextView
+                android:text="Section:"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TableLayout
+                android:background="@color/line"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="350dp"
+                android:layout_height="0.8dp">
+
+            </TableLayout>
+
+
+            <android.support.v7.widget.AppCompatImageView
+                android:src="@drawable/student"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/but_proceed_details"
+                android:text="Proceed"
+                android:textSize="18dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/submit"
+                android:background="@color/but_submit"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
