@@ -8,11 +8,12 @@
     <string name="fee_particulars">Fee Particulars</string>
     <string name="amount">Amount</string>
     <string name="proceed">Proceed</string>
-    <string name="todo">TODO</string>
-    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
     <string name="january">January</string>
-    <string name="january">January</string>
+    <string name="january2">January</string>
     <array name="fee">
+        <item>Fee Structure</item>
         <item>Yearly</item>
         <item>Half Yearly</item>
         <item>Quarterly</item>
